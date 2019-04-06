@@ -10,7 +10,7 @@ import { Component } from '@angular/core';
   <h1>{{name}}</h1>
 
   <fieldset>
-    <!-- <img src={{image}}/> -->
+    <!-- <img src={{image}}/> // img is element, src is property --> 
     <!-- <img src="{{image}}"/> -->
     <img [src]="image"/>
   </fieldset>
